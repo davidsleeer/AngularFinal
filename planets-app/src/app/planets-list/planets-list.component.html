@@ -1,0 +1,8 @@
+<p>planets-list works!</p>
+<ul>
+
+    <li *ngFor="let planet of planetService.planets">
+        <app-planet-detail [item]="planet"></app-planet-detail>
+    </li>
+
+</ul>
